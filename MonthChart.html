@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monthly Activities</title>
+  <link rel="stylesheet" href="MonthChart.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Monthly Activities</h1>
+    <label for="subject">Select Subject:</label>
+    <select id="subject" onchange="showMonthlyActivities()">
+      <option value="Maths">Maths</option>
+      <option value="Science">Science</option>
+      <option value="English">English</option>
+      <option value="Hindi">Hindi</option>
+      <option value="Sports">Sports</option>
+    </select>
+    <div id="month" style="display: none;">
+      <ul id="activity"></ul>
+    </div>
+  </div>
+  <script src="MonthChart.js"></script>
+</body>
+
+</html>

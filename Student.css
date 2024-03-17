@@ -1,0 +1,52 @@
+.menu-bar {
+    background-color: #ab6969;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: #f1eeee;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    display: block;
+    margin: 0 25px;
+    max-width: 200px;
+}
+
+.button {
+    text-align: center;
+    padding: 20px;
+}
+
+#stud-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+}
+
+.welcome {
+    text-align: center;
+    padding: 20px;
+    color: #6294aa;
+}
+
+.student-profile {
+    display: none;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.student-profile:target {
+    display: block;
+    text-align: center;
+    padding: 20px;
+
+}
